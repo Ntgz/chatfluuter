@@ -16,7 +16,7 @@ class MessageField extends StatelessWidget {
           borderSide: BorderSide( color: colors.primary),
           borderRadius: BorderRadius.circular(20) );
 
-    return TextFormField(
+    return TextFormField(  
       onTapOutside: (event) {
         focusNode.unfocus();
       },
